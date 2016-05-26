@@ -1,0 +1,172 @@
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+html {
+  background-color: azure;
+}
+
+body {
+  background-color: #151414;
+  margin: 0 auto 0 auto;
+  max-width: 1680px;
+}
+
+#header {
+  background-color: #111;
+}
+
+#nav {
+  border-bottom: 1px solid teal;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1680px;
+}
+
+p {
+  color: #e1e1e1;
+}
+
+h1 {
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  text-shadow: 4px 4px #222;
+}
+
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+
+ul {
+  margin-top: 5px;
+}
+
+
+
+.container-fluid .jumbotron {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  text-align: center;
+  color: #fff;
+  background-image: url(http://weswes.xyz/256/Nebula-Wallpaper-For-Android-OzIySk.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-top: 50px;
+  margin-bottom: 0;
+  border-radius: 0;
+  border-bottom: 1px solid teal;
+    
+}
+
+
+#rowAbout {
+  background: -webkit-linear-gradient(#171F21, #171F21, #171F21, #171A21);
+  border-top: 1px solid #222;
+      margin-bottom: 0px;
+}
+
+#rowAbout h3 {
+  color: white;
+  margin-top: 5px;
+}
+
+#pictureContainer {
+  height: 320px;
+  background-color: #111;
+  margin-top: 55px;
+  border-radius: 1%;
+  text-align: center;
+  background-image: url('https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkQAAAAJGU0OGNhMjg2LWZhYTItNDMxYy1iZmY0LTI0ZTFkZTRiNTE4YQ.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#myPicture {
+  border-radius: 50%;
+}
+
+#descriptionContainer {
+  background-color: #151414;
+  font-size: 1.14em;
+  text-align: left;
+  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  margin-top: 70px;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+#sMedContainer {
+  background-color: #111;
+  font-size: 20px;
+  font-family: "Calibri", Times, serif;
+}
+
+#quoteBox {
+  background: rgba(0, 0, 0, .6);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#quote {
+  font-size: 3.5em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+
+#rowSkills {
+  background-color: #171A21;
+  background: -webkit-linear-gradient(#171A21,#171A21, #171F21, #171F21);
+}
+
+#divider {
+    height: 100px;
+    background-color: #151414;
+}
+
+#skill{ 
+background-color: #24A793;
+}
+
+#skillDesc {
+    background-color: rgb(14, 62, 66);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#rowProjects {
+    background: -webkit-linear-gradient(#171F21,#171F21, #171F21, #171A21);
+}
+
+#projects {
+margin-bottom: 80px;
+}
+
+#projFrame {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#projPicture {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
